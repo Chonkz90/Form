@@ -10,15 +10,15 @@ function unitConverter (event) {
     event.preventDefault()
 
     const unitInput = parseFloat (document.querySelector("#unitInput").value)
-    console.log(unitInput);
-    console.log(typeof unitInput);
+    // console.log(unitInput);
+    // console.log(typeof unitInput);
 
     const unitFrom = document.querySelector("#unitFrom").value;
-    console.log(unitFrom);
+    // console.log(unitFrom);
     const unitTo = document.querySelector("#unitTo").value;
-    console.log(unitTo);
+    // console.log(unitTo);
     let displayResult = document.querySelector("#displayResult");
-    console.log(displayResult);
+    // console.log(displayResult);
 
     if (unitFrom === "MM" && unitTo ==="CM"){
         // Kalkulering
