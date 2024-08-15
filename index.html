@@ -17,10 +17,12 @@
  -->
  <form action="" class="form">
    <label for="">
-     <input type="text" name="" id="">
+    Skriv inn en tall verdi
+     <input type="text" name="unitInput" id="unitInput" placeholder="Skriv inn en tall verdi">
    </label>
 
    <label for="unitFrom">
+    Velg konvertering fra
      <select name="unitFrom" id="unitFrom">
        <option value="MM">MM</option>
        <option value="CM">CM</option>
@@ -30,6 +32,7 @@
    </label>
 
    <label for="unitTo">
+    Velg konvertering til
     <select name="unitTo" id="unitTo">
       <option value="MM">MM</option>
       <option value="CM">CM</option>
@@ -38,9 +41,9 @@
     </select>
   </label>
 
-<button> Konverter </button>
+<button id="convertButton"> Konverter </button>
 
-  <p>100</p>
+  <p id="displayResult">100</p>
  </form>
   </body>
 </html>
